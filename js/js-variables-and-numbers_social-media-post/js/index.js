@@ -8,6 +8,11 @@ console.clear();
 	- the user who created the post
 	- a boolean called isReported
 */
+const title = "Marvel Quiz App Lunch";
+const text = "Launch of the Quiz App";
+const numberOfLikes = 125;
+const user = "MarvelFan";
+const isReported = false;
 
 // --v-- write your code here --v--
 
