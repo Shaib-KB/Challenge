@@ -1,6 +1,5 @@
-import { Circle } from "./components/Circle/circle";
-
 console.clear();
+import { Circle } from "./components/Circle/circle.js";
 
 const square = document.createElement("div");
 square.classList.add("square");
@@ -14,4 +13,4 @@ pentagon.addEventListener("click", () => {
   pentagon.style.backgroundColor = getRandomColor;
 });
 
-root.append(circle, square, pentagon);
+root.append(circleElement, square, pentagon);
