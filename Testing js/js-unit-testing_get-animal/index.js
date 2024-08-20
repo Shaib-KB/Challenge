@@ -1,1 +1,3 @@
-export function getAnimal() {}
+export function getAnimal() {
+  "dogs", "cats";
+}
